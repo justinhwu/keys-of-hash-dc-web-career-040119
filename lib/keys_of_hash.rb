@@ -5,5 +5,7 @@ class Hash
     animals.each do |a,b|
       b.has_value?(arguments)
       return a.push
+    end
+  end
   end
 end
