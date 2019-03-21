@@ -5,4 +5,6 @@ class Hash
     self.each do |a,b|
       b.has_value?(arguments)
         array.push(a)
+      end
+    end
 end
