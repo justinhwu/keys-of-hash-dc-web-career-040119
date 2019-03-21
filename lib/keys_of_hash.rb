@@ -4,7 +4,7 @@ class Hash
     array = []
     self.each do |a,b|
       if b == (arguments)
-        array.push(a)
+        array.push(a.keys)
       end
     end
     array
