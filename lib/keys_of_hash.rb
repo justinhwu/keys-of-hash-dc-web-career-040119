@@ -4,7 +4,7 @@ class Hash
     array = []
     animals.each do |a,b|
       b.has_value?(arguments)
-      return a.push
+      return array.push(a)
     end
   end
   end
