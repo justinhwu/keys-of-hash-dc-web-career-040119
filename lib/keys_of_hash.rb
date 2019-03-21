@@ -3,4 +3,6 @@ class Hash
     # code goes here
     array = []
     self.each do |a,b|
+      b.has_value?(arguments)
+        array.push(b)
 end
