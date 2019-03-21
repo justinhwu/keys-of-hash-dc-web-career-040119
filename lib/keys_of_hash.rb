@@ -4,5 +4,5 @@ class Hash
     array = []
     self.each do |a,b|
       b.has_value?(arguments)
-        array.push(b)
+        array.push(a)
 end
