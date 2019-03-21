@@ -3,7 +3,7 @@ class Hash
     # code goes here
     array = []
     self.each do |a,b|
-      if b == (arguments)
+      if arguments.include?(b)b == (arguments)
         array.push(a.keys)
       end
     end
