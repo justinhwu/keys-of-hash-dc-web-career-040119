@@ -7,5 +7,6 @@ class Hash
         array.push(a)
       end
     end
+    array
   end
 end
