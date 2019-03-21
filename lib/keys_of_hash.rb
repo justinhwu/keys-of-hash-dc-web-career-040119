@@ -3,6 +3,6 @@ class Hash
     # code goes here
     array = []
     animals.each do |a,b|
-      
+      b.has_value?(arguments)
   end
 end
